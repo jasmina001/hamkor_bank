@@ -1,11 +1,19 @@
+import React from "react";
+import "./App.css";
+import YearFilter from "./components/YearFilter";
+import ReportList from "./components/ReportList";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Salom, Hamkor Bank!</h1>
-      <p>React loyiham ishga tushdi 😎</p>
+    <div className="container">
+      <h1>Отчеты</h1>
+      <YearFilter />
+      <ReportList />
+      <div className="cookie">
+        Мы используем файлы cookie. <button>Принять</button>
+      </div>
     </div>
   );
 }
 
 export default App;
-
