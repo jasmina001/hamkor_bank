@@ -1,0 +1,46 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #f3f1f1; /* Navbarning asosiy rangi */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .navbar-logo {
+    color: #201897;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-left: 30px;
+  }
+  
+  .navbar-link {
+    color: #000000;
+    text-decoration: none;
+    font-size:19px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #51d415; /* Hover effekti uchun rang */
+  }
+  
+  .navbar-link:active {
+    color: #ffd700;
+  }
+  

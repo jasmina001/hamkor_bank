@@ -1,19 +1,17 @@
-import React from "react";
-import "./App.css";
-import YearFilter from "./components/YearFilter";
-import ReportList from "./components/ReportList";
 
-function App() {
+// src/App.js
+
+import React from 'react';
+import Navbar from './components/Navbar';
+import ReportsCards from './components/ReportsCards';
+
+const App = () => {
   return (
-    <div className="container">
-      <h1>Отчеты</h1>
-      <YearFilter />
-      <ReportList />
-      <div className="cookie">
-        Мы используем файлы cookie. <button>Принять</button>
-      </div>
+    <div>
+      <Navbar />
+      <ReportsCards />
     </div>
   );
-}
+};
 
 export default App;
