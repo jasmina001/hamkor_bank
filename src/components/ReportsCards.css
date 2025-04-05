@@ -11,18 +11,18 @@
   .report-card {
     width: 410px;
     background-color: #f4f4f9;
-    border-radius: 12px; /* Oval shaklga o'zgartirdik */
+    border-radius: 12px; 
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soya yanada yumshoqroq */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Kartaning ichidagi elementlar orasidagi bo'shliq */
+    justify-content: space-between;
   }
   
   .report-card:hover {
-    transform: translateY(-8px); /* Hoverda kartani biroz yuqoriga ko'taramiz */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Hoverda soya yanada kuchayadi */
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
   
   .report-title {
@@ -35,10 +35,10 @@
     font-size: 14px;
     color: #666;
     margin-bottom: 20px;
-    flex-grow: 1; /* Agar matn ko'p bo'lsa, qolgan joyni to'ldiradi */
+    flex-grow: 1; 
   }
   
-  /* Icon with the link */
+
   .report-button {
     font-size: 24px;
     color: #21cf55;
@@ -46,7 +46,7 @@
     border: none;
     cursor: pointer;
     transition: color 0.3s ease;
-    align-self: flex-start; /* Tugma chapga joylashtirilgan */
+    align-self: flex-start; 
   }
   
   .report-button:hover {

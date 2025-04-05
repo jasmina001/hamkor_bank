@@ -1,9 +1,10 @@
 /* src/components/Navbar.css */
 
 .navbar {
-    background-color: #f3f1f1; /* Navbarning asosiy rangi */
+    background-color: #f3f1f1;
     padding: 20px 0;
     font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .navbar-container {
@@ -32,15 +33,100 @@
   .navbar-link {
     color: #000000;
     text-decoration: none;
-    font-size:19px;
+    font-size: 16px;
+    font-weight: bold;
     transition: color 0.3s ease;
   }
   
   .navbar-link:hover {
-    color: #51d415; /* Hover effekti uchun rang */
+    color: #51d415;
   }
   
   .navbar-link:active {
     color: #ffd700;
+  }
+  
+  .currency {
+    font-size: 18px;
+  }
+  
+  /* Style for Buy and Sell Links */
+  .buy-link {
+    color: #21cf55;
+  }
+  
+  .sell-link {
+    color: #ff4500;
+  }
+  
+  /* Hamburger Icon for small screens */
+  .hamburger-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 4px;
+    background-color: #000;
+    margin: 4px 0;
+  }
+  
+  /* Mobile view media query */
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      width: 100%;
+      text-align: center;
+      background-color: #f3f1f1;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 20px 0;
+    }
+  
+    .navbar-links.active {
+      display: block;
+    }
+  
+    .navbar-item {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-link {
+      font-size: 16px;
+    }
+  
+    .hamburger-icon {
+      display: flex;
+    }
+  }
+  
+  /* Mobile view media query */
+  @media (max-width: 480px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-logo {
+      font-size: 22px;
+    }
+  
+    .navbar-links {
+      display: block;
+      margin-top: 10px;
+    }
+  
+    .navbar-item {
+      margin-left: 0;
+      margin-bottom: 8px;
+    }
+  
+    .navbar-link {
+      font-size: 14px;
+    }
   }
   
