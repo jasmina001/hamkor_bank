@@ -23,10 +23,7 @@ const Navbar = () => {
           <li className="navbar-item">
             <a href="/for-investors/reports" className="navbar-link">Отчеты</a>
           </li>
-          <li className="navbar-item">
-            <a href="/for-investors/emission" className="navbar-link">Эмиссия</a>
-          </li>
-  
+      
           <li className="navbar-item">
             <a href="/for-investors/repo" className="navbar-link">Перекупленные акции</a>
           </li>
