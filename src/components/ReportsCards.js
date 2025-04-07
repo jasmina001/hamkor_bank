@@ -33,10 +33,7 @@ const ReportsCards = () => {
         <div className="report-card" key={report.id}>
           <h3 className="report-title">{report.title}</h3>
           <p className="report-description">{report.description}</p>
-          <a href="#" className="report-button">
-            <i className="fas fa-download"></i>
-          </a>
-        </div>
+     
       ))}
     </div>
   );
