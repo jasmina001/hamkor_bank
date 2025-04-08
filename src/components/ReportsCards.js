@@ -22,7 +22,7 @@ const ReportsCards = () => {
     const newReports = [
       { id: 10, title: 'Отчет за 2014 год', description: 'Описание отчета за 2014 год' },
       { id: 11, title: 'Отчет за 2013 год', description: 'Описание отчета за 2013 год' },
-      { id: 12, title: 'Отчет за 2012 год', description: 'Описание отчета за 2012 год' },
+      { id: 12, title: 'Отчет за 2012 год', description: 'отчета за 2012 год' },
     ];
     setReports((prevReports) => [...prevReports, ...newReports]);
   };
