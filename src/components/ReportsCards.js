@@ -5,8 +5,8 @@ import './ReportsCards.css';
 
 const ReportsCards = () => {
   const initialReports = [
-    { id: 1, title: 'Отчет за 2023 ', description: 'Описание отчета за 2023 ' },
-    { id: 2, title: 'Отчет за 2022 ', description: 'Описание отчета за 2022 год' },
+    { id: 1, title: 'Отчет за 2023 год', description: 'Описание отчета за 2023 год' },
+    { id: 2, title: 'Отчет за 2022 год', description: 'Описание отчета за 2022 год' },
     { id: 3, title: 'Отчет за 2021 год', description: 'Описание отчета за 2021 год' },
     { id: 4, title: 'Отчет за 2020 год', description: 'Описание отчета за 2020 год' },
     { id: 5, title: 'Отчет за 2019 год', description: 'Описание отчета за 2019 год' },
@@ -22,7 +22,7 @@ const ReportsCards = () => {
     const newReports = [
       { id: 10, title: 'Отчет за 2014 год', description: 'Описание отчета за 2014 год' },
       { id: 11, title: 'Отчет за 2013 год', description: 'Описание отчета за 2013 год' },
-      { id: 12, title: 'Отчет за 2012 год', description: 'Описание отчета за 2012 ' },
+      { id: 12, title: 'Отчет за 2012 год', description: 'Описание отчета за 2012 год' },
     ];
     setReports((prevReports) => [...prevReports, ...newReports]);
   };
