@@ -1,4 +1,5 @@
 // src/components/Navbar.js
+
 import React, { useState } from 'react';
 import './Navbar.css';
 
@@ -8,6 +9,7 @@ const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -42,7 +44,9 @@ const Navbar = () => {
         </ul>
         {/* Hamburger Icon */}
         <div className="hamburger-icon" onClick={toggleMenu}>
-    
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </div>
       </div>
     </nav>
