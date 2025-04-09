@@ -26,7 +26,6 @@ const ReportsCards = () => {
     ];
     setReports((prevReports) => [...prevReports, ...newReports]);
   };
-
   return (
     <div className="reports-container">
       {reports.map((report) => (
