@@ -34,7 +34,7 @@ const Navbar = () => {
           </li>
           <li className="navbar-item">
             <a href="/for-investors/sell" className="navbar-link sell-link">
-              <span>$</span> Продать
+              <span className="currency">$</span> Продать
               <span>13 800</span>
             </a>
           </li>
