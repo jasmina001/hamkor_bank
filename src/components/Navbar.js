@@ -29,7 +29,7 @@ const Navbar = () => {
           </li>
           <li className="navbar-item">
             <a href="/for-investors/buy" className="navbar-link buy-link">
-              <span className="currency">$</span> Купить <span>1200$</span>
+             
             </a>
           </li>
           <li className="navbar-item">
